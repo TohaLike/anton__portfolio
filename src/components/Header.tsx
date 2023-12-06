@@ -1,19 +1,21 @@
 import React from "react"
-import { useSpring, useTrail, animated } from "react-spring"
+import { useSpring, useTrail, animated, SpringValues } from '@react-spring/web'
 import LogoAnton from "../images/Anton.png"
 
 const Header: React.FC = () => {
    const items = ['Anton Malyshev', 'Frontend-developer', 'BORN: August 6, 2003', 'EMAIL: antonpaper500@gmail.com']
 
    const fadeInImage = useSpring({
+      opacity: 1,
       from: { opacity: 0 },
-      to: { opacity: 1 },
-      config: { duration: 700 }
+      config: { duration: 700 },
+      onFrame: (props: SpringValues) => console.log(props),
+
    })
 
    const trailHeader = useTrail(items.length, {
+      opacity: 1,
       from: { opacity: 0 },
-      to: { opacity: 1 },
       config: { duration: 700 }
    })
 

@@ -1,18 +1,18 @@
 import React from "react"
-import { useSpring, animated, useTrail } from "react-spring"
+import { useSpring, animated, useTrail } from '@react-spring/web'
 
 const NoVisibilityHeader: React.FC = () => {
    const items = ['', '', '', '']
 
    const fadeOut = useSpring({
+      opacity: 0,
       from: { opacity: 1 },
-      to: { opacity: 0 },
       config: { duration: 700 }
    })
 
    const trailFadeOut = useTrail(items.length, {
+      opacity: 0,
       from: { opacity: 1 },
-      to: { opacity: 0 },
       config: { duration: 700 }
    })
 
