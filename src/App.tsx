@@ -1,6 +1,5 @@
 import NoVisibility from "./components/NoVisibilityHeader"
 import Visibility from "./components/Header"
-import Test from "./components/Test"
 import { useSpring, animated } from "react-spring"
 import './App.css';
 
@@ -15,7 +14,7 @@ function App() {
    const fadeIn = useSpring({
       from: { opacity: 0, height: 0 },
       to: { opacity: 1, height: 'auto' },
-      config: { duration: 1000 }
+      config: { duration: 700 }
    })
 
 
@@ -27,8 +26,6 @@ function App() {
          <animated.div style={fadeIn}>
             <Visibility />
          </animated.div>
-
-         <Test />
       </div>
    );
 }
