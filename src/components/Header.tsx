@@ -28,11 +28,9 @@ const Header: React.FC = () => {
    return (
       <>
          <div className="visibility">
-            <animated.div style={fadeInImage}>
-               <div className="visibility__logo__container">
-                  <img className="visibility__logo" src={AntonLogo} alt="test" />
-               </div>
-            </animated.div>
+            <div className="visibility__logo__container">
+               <animated.img style={fadeInImage} className="visibility__logo" src={AntonLogo} alt='Anton' />
+            </div>
 
             <div className="visibility__text">
                {trailHeader.map((style, index) => (
