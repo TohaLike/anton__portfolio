@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Inter&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400;500&family=Inter&display=swap');
 
 body {
-   background: linear-gradient(179deg, #E19898 -22.61%, #A2678A 13.38%, #4D3C77 51.18%, #3F1D38 97.93%);
+   background: linear-gradient(253deg, #E19898 -35.78%, #A2678A 2.02%, #4D3C77 41.73%, #3F1D38 90.84%), linear-gradient(253deg, #E19898 -35.78%, #A2678A 2.02%, #4D3C77 41.73%, #3F1D38 90.84%);
    height: 2042px;
    margin-top: 100px;
    overflow: overlay;
@@ -36,7 +35,7 @@ body {
 .visibility {
    display: grid;
    justify-items: center;
-   row-gap: 30px;
+   row-gap: 20px;
 }
 
 .no__visibility__logo {
@@ -57,7 +56,7 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;
-   width: 400px;
+   width: 398px;
    height: 60px;
    flex-shrink: 0;
    text-align: center;
@@ -67,15 +66,15 @@ body {
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   background: linear-gradient(269deg, rgba(162, 103, 138, 0.92) 6.12%, rgba(77, 60, 119, 0.81) 101.73%);
+   background: linear-gradient(269deg, rgba(27, 26, 26, 0.92) 6.12%, #4E3C7C 101.73%);
 }
 
 .text__content__novisibility__1 {
    display: flex;
    align-items: center;
    justify-content: center;
-   width: 400px;
-   height: 30px;
+   width: 398px;
+   height: 33px;
    flex-shrink: 0;
    text-align: center;
    color: #FFF;
@@ -84,7 +83,7 @@ body {
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   background: linear-gradient(269deg, rgba(162, 103, 138, 0.92) 6.12%, rgba(77, 60, 119, 0.81) 101.73%);
+   background: linear-gradient(269deg, rgba(27, 26, 26, 0.92) 6.12%, #4E3C7C 101.73%);
 }
 
 
@@ -93,7 +92,7 @@ body {
    align-items: center;
    justify-content: center;
    width: 398px;
-   height: 27px;
+   height: 47px;
    flex-shrink: 0;
    color: #FFF;
    text-align: center;
@@ -102,10 +101,10 @@ body {
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   background: linear-gradient(269deg, rgba(162, 103, 138, 0.92) 6.12%, rgba(77, 60, 119, 0.81) 101.73%);
+   background: linear-gradient(269deg, rgba(27, 26, 26, 0.92) 6.12%, #4E3C7C 101.73%);
 }
 
-.text__content__novisibility__3 {
+/* .text__content__novisibility__3 {
    display: flex;
    align-items: center;
    justify-content: center;
@@ -120,13 +119,8 @@ body {
    font-weight: 400;
    line-height: normal;
    background: linear-gradient(269deg, rgba(162, 103, 138, 0.92) 6.12%, rgba(77, 60, 119, 0.81) 101.73%);
-}
+} */
 
-
-
-.test{ 
-   margin-left: 40px;
-}
 
 /* Visibility */
 .visibility__logo {
@@ -155,12 +149,12 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;
-   width: 400px;
+   width: 398px;
    height: 60px;
    flex-shrink: 0;
    text-align: center;
    color: #FFF;
-   font-family: 'IBM Plex Mono', monospace;
+   font-family: 'IBM Plex Mono';
    font-size: 47px;
    font-style: normal;
    font-weight: 400;
@@ -171,13 +165,14 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;
-   width: 400px;
-   height: 30px;
+   width: 398px;
+   height: 33px;
    flex-shrink: 0;
    text-align: center;
    color: #FFF;
-   font-family: 'IBM Plex Mono', monospace;
-   font-size: 24px;
+   text-align: center;
+   font-family: 'IBM Plex Mono';
+   font-size: 28px;
    font-style: normal;
    font-weight: 400;
    line-height: normal;
@@ -188,18 +183,41 @@ body {
    align-items: center;
    justify-content: center;
    width: 398px;
-   height: 27px;
+   height: 47px;
    flex-shrink: 0;
    color: #FFF;
    text-align: center;
-   font-family: 'Inter', sans-serif;
-   font-size: 20px;
+   font-family: 'IBM Plex Mono';
+   font-size: 18px;
    font-style: normal;
    font-weight: 400;
    line-height: normal;
 }
 
-.text__content__visibility__3 {
+.visibility__links {
+   display: grid;
+   grid-template-columns: repeat(4, 100px);
+}
+
+.link__block {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 91px;
+   height: 30px;
+   flex-shrink: 0;
+   border-radius: 6px;
+   color: #FFF;
+   text-align: center;
+   font-family: 'IBM Plex Mono';
+   font-size: 13px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   background: linear-gradient(266deg, rgba(79, 69, 75, 0.92) -228.51%, rgba(14, 14, 14, 0.81) 39.7%);
+}
+
+/* .text__content__visibility__3 {
    display: flex;
    align-items: center;
    justify-content: center;
@@ -213,4 +231,4 @@ body {
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-}
+} */
