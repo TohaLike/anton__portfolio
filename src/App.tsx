@@ -1,7 +1,8 @@
 import NoVisibility from "./components/NoVisibilityHeader"
 import Visibility from "./components/Header"
 import { useSpring, animated } from "react-spring"
-import './App.css';
+import './Adaptive.css'
+import './App.css'
 
 
 function App() {
