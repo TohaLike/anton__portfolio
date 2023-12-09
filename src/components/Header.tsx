@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { useSpring, useTrail, animated, SpringValues } from '@react-spring/web'
+import { useSpring, useTrail, animated } from '@react-spring/web'
 import AntonLogo from "../images/Anton.png"
 
 const Header: React.FC = () => {
