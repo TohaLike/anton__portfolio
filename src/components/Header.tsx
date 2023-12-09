@@ -1,15 +1,15 @@
-import React from "react"
+import React, { useState } from "react"
 import { useSpring, useTrail, animated, SpringValues } from '@react-spring/web'
 import AntonLogo from "../images/Anton.png"
 
 const Header: React.FC = () => {
+   const [loadedPhoto, setLoadedPhoto] = useState(false)
    const items = ['Anton Malyshev', 'Frontend-developer', 'My work it is developing web-apps and creating UI']
    const itemsLinks = ['GitHub', 'Telegram', 'Twitter', 'Instagram']
    const linkBoks = ['https://github.com/TohaLike', 'https://t.me/smokeonthetower']
 
    const fadeInImage = useSpring({
-      opacity: 1,
-      from: { opacity: 0 },
+      opacity: loadedPhoto ? 1 : 0,
       config: { duration: 700 },
    })
 
@@ -29,7 +29,10 @@ const Header: React.FC = () => {
       <>
          <div className="visibility">
             <div className="visibility__logo__container">
-               <animated.img style={fadeInImage} className="visibility__logo" src={AntonLogo} alt='Anton' />
+               {loadedPhoto && (
+                  <animated.img className="visibility__logo" src={AntonLogo} alt="Anton" style={fadeInImage} />
+               )}
+               <img className="visibility__logo" src={AntonLogo} alt="Anton" style={{ visibility: 'hidden' }} onLoad={() => setLoadedPhoto(true)} />
             </div>
 
             <div className="visibility__text">
