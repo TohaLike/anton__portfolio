@@ -1,8 +1,8 @@
 import NoVisibility from "./components/NoVisibilityHeader"
-import Visibility from "./components/Header"
+import Header from "./components/Header"
 import { useSpring, animated } from "react-spring"
-import './Adaptive.css'
 import './App.css'
+import './Adaptive.css'
 
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
             <NoVisibility />
          </animated.div>
          <animated.div style={fadeIn}>
-            <Visibility />
+            <Header />
          </animated.div>
       </div>
    );
