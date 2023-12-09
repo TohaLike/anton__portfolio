@@ -79,7 +79,8 @@
 
    .visibility__links {
       display: grid;
-      grid-template-columns: repeat(3, 90px);
+      grid-template-columns: repeat(3, 100px);
+      row-gap: 10px;
       justify-content: center;
       /* grid-template-rows: repeat(2, 30px); */
    }
