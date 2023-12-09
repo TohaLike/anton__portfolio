@@ -43,7 +43,7 @@ body {
    height: 250px;
    flex-shrink: 0;
    border-radius: 151px;
-   background: linear-gradient(180deg, #3F1D38 0%, #A2678A 100%);
+   /* background: linear-gradient(180deg, #3F1D38 0%, #A2678A 100%); */
 }
 
 .no__visibility__text {
