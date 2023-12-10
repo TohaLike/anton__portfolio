@@ -1,9 +1,9 @@
 @media only screen and (max-width: 390px) {
+
    /* No visibility */
    .visibility {
       display: grid;
       justify-items: center;
-      /* row-gap: 20px; */
    }
 
    .no__visibility__logo {
@@ -82,10 +82,10 @@
       grid-template-columns: repeat(3, 100px);
       row-gap: 10px;
       justify-content: center;
-      /* grid-template-rows: repeat(2, 30px); */
    }
 
-   .link__block {
 
+   .line__border_one {
+      display: none;
    }
 }
