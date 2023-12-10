@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400;500&family=Inter&display=swap');
 
 body {
-   background-image: linear-gradient(253deg, #E19898 -35.78%, #A2678A 2.02%, #4D3C77 41.73%, #3F1D38 90.84%), linear-gradient(253deg, #E19898 -35.78%, #A2678A 2.02%, #4D3C77 41.73%, #3F1D38 90.84%);
+   background-color: #000000;
+   background: linear-gradient(253deg, #E19898 -35.78%, #A2678A 2.02%, #4D3C77 41.73%, #3F1D38 90.84%), linear-gradient(253deg, #E19898 -35.78%, #A2678A 2.02%, #4D3C77 41.73%, #3F1D38 90.84%);
    max-height: 100%;
    max-width: 100%;
    background-repeat: no-repeat;
