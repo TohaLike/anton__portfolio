@@ -4,6 +4,7 @@ import NoVisibility from "./components/NoVisibilityHeader"
 import Header from "./components/Header"
 import Article from "./components/Article"
 import './App.css'
+import 'normalize.css'
 import './Adaptive.css'
 
 
