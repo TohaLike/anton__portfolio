@@ -1,3 +1,95 @@
+@media only screen and (max-width: 430px) {
+
+   /* No visibility */
+   .visibility {
+      display: grid;
+      justify-items: center;
+   }
+
+   .no__visibility__logo {
+      width: 250px;
+      height: 250px;
+      flex-shrink: 0;
+      border-radius: 151px;
+      background: linear-gradient(180deg, #3F1D38 0%, #A2678A 100%);
+   }
+
+   .no__visibility__text {
+      display: grid;
+      justify-items: center;
+      row-gap: 10px;
+   }
+
+   .text__content__novisibility__0 {
+      width: 350px;
+      height: 60px;
+      font-size: 40px;
+   }
+
+   .text__content__novisibility__1 {
+      width: 350px;
+      height: 33px;
+      font-size: 28px;
+   }
+
+   .text__content__novisibility__2 {
+      width: 350px;
+      height: 47px;
+      font-size: 15px;
+   }
+
+   /* Visibility */
+   .visibility__logo {
+      width: 250px;
+      height: 250px;
+      flex-shrink: 0;
+      border-radius: 151px;
+   }
+
+   .visibility__logo__container {
+      width: 250px;
+      height: 250px;
+      flex-shrink: 0;
+      border-radius: 151px;
+   }
+
+   .visibility__text {
+      display: grid;
+      justify-items: center;
+      row-gap: 10px;
+   }
+
+   .text__content__visibility__0 {
+      width: 350px;
+      height: 60px;
+      font-size: 40px;
+   }
+
+   .text__content__visibility__1 {
+      width: 330px;
+      height: 33px;
+      font-size: 25px;
+   }
+
+   .text__content__visibility__2 {
+      width: 300px;
+      height: 47px;
+      font-size: 15px;
+   }
+
+   .visibility__links {
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+      row-gap: 10px;
+      justify-content: center;
+   }
+
+   .line__border_one {
+      display: none;
+   }
+}
+
+
 @media only screen and (max-width: 390px) {
 
    /* No visibility */
@@ -68,7 +160,7 @@
    .text__content__visibility__1 {
       width: 330px;
       height: 33px;
-      font-size: 28px;
+      font-size: 25px;
    }
 
    .text__content__visibility__2 {
@@ -83,7 +175,6 @@
       row-gap: 10px;
       justify-content: center;
    }
-
 
    .line__border_one {
       display: none;

@@ -1,7 +1,8 @@
+import { useSpring, animated } from "react-spring"
+import { Link, animateScroll as scroll } from "react-scroll"
 import NoVisibility from "./components/NoVisibilityHeader"
 import Header from "./components/Header"
 import Article from "./components/Article"
-import { useSpring, animated } from "react-spring"
 import './App.css'
 import './Adaptive.css'
 
@@ -27,6 +28,14 @@ function App() {
 
    return (
       <div className="container">
+         <Link
+            activeClass="active"
+            to="body"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+         ></Link>
          <animated.div style={fadeOut}>
             <NoVisibility />
          </animated.div>
