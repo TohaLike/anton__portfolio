@@ -41,11 +41,14 @@ function App() {
          </animated.div>
          <animated.div style={fadeIn}>
             <Header />
+
+            <animated.div style={fadeInHr}>
+               <hr className="line__border_one"></hr>
+            </animated.div>
+
+            <Article />
          </animated.div>
-         <animated.div style={fadeInHr}>
-            <hr className="line__border_one"></hr>
-         </animated.div>
-         <Article />
+
       </div>
    );
 }

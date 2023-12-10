@@ -2,7 +2,10 @@
 
 body {
    background: linear-gradient(253deg, #E19898 -35.78%, #A2678A 2.02%, #4D3C77 41.73%, #3F1D38 90.84%), linear-gradient(253deg, #E19898 -35.78%, #A2678A 2.02%, #4D3C77 41.73%, #3F1D38 90.84%);
-   height: 2042px;
+   max-height: 100%;
+   max-width: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
    margin-top: 100px;
    overflow: overlay;
 }
@@ -210,4 +213,21 @@ body {
    margin-top: 125px;
    margin-left: 114px;
    margin-right: 114px;
+}
+
+/* Article */
+.block__container {
+   display: grid;
+   justify-content: center;
+   grid-template-columns: repeat(2, 600px);
+   margin-top: 125px;
+   column-gap: 12px;
+   row-gap: 30px;
+}
+
+.block__main {
+   width: 600px;
+   height: 350px;
+   flex-shrink: 0;
+   background: linear-gradient(269deg, rgba(27, 26, 26, 0.92) 6.12%, rgba(78, 60, 124, 0.11) 101.73%);
 }
