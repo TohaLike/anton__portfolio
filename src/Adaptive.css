@@ -140,14 +140,14 @@
 
 @media only screen and (max-width: 600px) {
    .block__container {
-      grid-template-columns: repeat(1, 510px);
+      grid-template-columns: repeat(1, 520px);
       margin-top: 10px;
       column-gap: 12px;
       row-gap: 30px;
    }
 
    .block__main {
-      width: 510px;
+      width: 520px;
       height: 320px;
       flex-shrink: 0;
       background: linear-gradient(269deg, rgba(27, 26, 26, 0.92) 6.12%, rgba(78, 60, 124, 0.11) 101.73%);
@@ -156,6 +156,22 @@
    .line__border_one {
       margin-top: 10px;
       transition: 0.2s;
+   }
+}
+
+@media only screen and (max-width: 550px) {
+   .block__container {
+      grid-template-columns: repeat(1, 480px);
+      margin-top: 10px;
+      column-gap: 12px;
+      row-gap: 30px;
+   }
+
+   .block__main {
+      width: 480px;
+      height: 310px;
+      flex-shrink: 0;
+      background: linear-gradient(269deg, rgba(27, 26, 26, 0.92) 6.12%, rgba(78, 60, 124, 0.11) 101.73%);
    }
 }
 
