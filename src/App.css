@@ -1,8 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400;500&family=Inter&display=swap');
 
+html {
+   height: 100%;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background: #70bg32;
+   background-repeat: no-repeat;
+   background: -webkit-linear-gradient(to left top, blue, red);
+   background: -moz-linear-gradient(to left top, blue, red);
+   background: -ms-linear-gradient(to left top, blue, red);
+   background: -o-linear-gradient(to left top, blue, red);
+   background: linear-gradient(to left top, blue, red);
+}
+
 body {
-   background-color: #000000;
-   background: linear-gradient(253deg, #E19898 -35.78%, #A2678A 2.02%, #4D3C77 41.73%, #3F1D38 90.84%), linear-gradient(253deg, #E19898 -35.78%, #A2678A 2.02%, #4D3C77 41.73%, #3F1D38 90.84%);
+   /* background-color: #000000; */
+   /* background: linear-gradient(253deg, #E19898 -35.78%, #A2678A 2.02%, #4D3C77 41.73%, #3F1D38 90.84%), linear-gradient(253deg, #E19898 -35.78%, #A2678A 2.02%, #4D3C77 41.73%, #3F1D38 90.84%); */
    max-height: 100%;
    max-width: 100%;
    background-repeat: no-repeat;
