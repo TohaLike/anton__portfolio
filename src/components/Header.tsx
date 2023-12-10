@@ -1,12 +1,14 @@
 import React, { useState } from "react"
 import { useSpring, useTrail, animated } from '@react-spring/web'
+import AkkError from "../pages/AkkError"
 import AntonLogo from "../images/Anton.png"
 
 const Header: React.FC = () => {
    const [loadedPhoto, setLoadedPhoto] = useState(false)
    const items = ['Anton Malyshev', 'Frontend-developer', 'My work it is developing web-apps and creating UI']
    const itemsLinks = ['GitHub', 'Telegram', 'Twitter', 'Instagram']
-   const linkBoks = ['https://github.com/TohaLike', 'https://t.me/smokeonthetower']
+   const linkBoks = ['https://github.com/TohaLike', 'https://t.me/smokeonthetower', 
+   '','https://instagram.com/death__devil.7?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr']
 
    const fadeInImage = useSpring({
       opacity: loadedPhoto ? 1 : 0,
