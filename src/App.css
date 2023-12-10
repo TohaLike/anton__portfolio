@@ -43,7 +43,7 @@ body {
    height: 250px;
    flex-shrink: 0;
    border-radius: 151px;
-   background: linear-gradient(180deg, #3F1D38 0%, #A2678A 100%);
+   background: linear-gradient(269deg, rgba(27, 26, 26, 0.92) 6.12%, #4E3C7C 101.73%);
 }
 
 .no__visibility__text {
@@ -204,9 +204,9 @@ body {
    border: none;
    flex-shrink: 0;
    border-radius: 8px;
-   background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, 
-   rgba(255, 255, 255, 0.83) 42.52%, #FFF 51.37%, 
-   rgba(255, 255, 255, 0.87) 60.75%, rgba(255, 255, 255, 0.00) 100%);
+   background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%,
+         rgba(255, 255, 255, 0.83) 42.52%, #FFF 51.37%,
+         rgba(255, 255, 255, 0.87) 60.75%, rgba(255, 255, 255, 0.00) 100%);
    margin-top: 125px;
    margin-left: 114px;
    margin-right: 114px;
