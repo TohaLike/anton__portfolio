@@ -1,10 +1,10 @@
 @media only screen and (max-width: 1400px) {
    .block__container {
-      margin-top: 100px;
+      margin-top: 115px;
    }
 
    .line__border_one {
-      margin-top: 100px;
+      margin-top: 115px;
       transition: 0.2s;
    }
 }
@@ -12,7 +12,7 @@
 @media only screen and (max-width: 1250px) {
    .block__container {
       grid-template-columns: repeat(2, 590px);
-      margin-top: 90px;
+      margin-top: 105px;
    }
 
    .block__main {
@@ -20,7 +20,7 @@
    }
 
    .line__border_one {
-      margin-top: 90px;
+      margin-top: 105px;
       transition: 0.2s;
    }
 }
@@ -28,7 +28,7 @@
 @media only screen and (max-width: 1230px) {
    .block__container {
       grid-template-columns: repeat(2, 570px);
-      margin-top: 80px;
+      margin-top: 95px;
    }
 
    .block__main {
@@ -36,7 +36,7 @@
    }
 
    .line__border_one {
-      margin-top: 80px;
+      margin-top: 95px;
       transition: 0.2s;
    }
 }
@@ -44,7 +44,7 @@
 @media only screen and (max-width: 1200px) {
    .block__container {
       grid-template-columns: repeat(2, 550px);
-      margin-top: 70px;
+      margin-top: 85px;
    }
 
    .block__main {
@@ -52,7 +52,7 @@
    }
 
    .line__border_one {
-      margin-top: 70px;
+      margin-top: 85px;
       transition: 0.2s;
    }
 }
@@ -60,6 +60,7 @@
 @media only screen and (max-width: 1160px) {
    .block__container {
       grid-template-columns: repeat(2, 530px);
+      margin-top: 80px;
    }
 
    .block__main {
@@ -67,6 +68,7 @@
    }
 
    .line__border_one {
+      margin-top: 80px;
       transition: 0.2s;
    }
 }
@@ -74,6 +76,7 @@
 @media only screen and (max-width: 1110px) {
    .block__container {
       grid-template-columns: repeat(2, 510px);
+      margin-top: 75px;
    }
 
    .block__main {
@@ -81,7 +84,7 @@
    }
 
    .line__border_one {
-      margin-top: 70px;
+      margin-top: 75px;
       transition: 0.2s;
    }
 }
@@ -90,7 +93,7 @@
    .block__container {
       grid-template-columns: repeat(1, 500px);
       transition: 0.2s;
-      margin-top: 50px;
+      margin-top: 65px;
    }
 
    .block__main {
@@ -98,8 +101,20 @@
    }
 
    .line__border_one {
-      margin-top: 50px;
+      margin-top: 65px;
       transition: 0.2s;
+   }
+}
+
+@media only screen and (max-width: 850px) {
+   .block__container {
+      margin-top: 30px;
+   }
+
+   .line__border_one {
+      margin-top: 30px;
+      transition: 0.2s;
+      opacity: 0;
    }
 }
 
@@ -109,7 +124,6 @@
    }
 
    .block__main {
-      width: 500px;
       height: 330px;
    }
 
@@ -121,18 +135,11 @@
 
 @media only screen and (max-width: 640px) {
    .block__container {
-      grid-template-columns: repeat(1, 500px);
-      margin-top: 10;
-   }
-
-   .block__main {
-      width: 500px;
-      height: 330px;
+      margin-top: 25;
    }
 
    .line__border_one {
-      margin-top: 10px;
-      opacity: 0;
+      margin-top: 25px;
       transition: 0.2s;
    }
 }
@@ -204,57 +211,47 @@
 }
 
 @media only screen and (max-width: 430px) {
-
-   /* No visibility */
    .text__content__novisibility__0 {
       width: 350px;
-      height: 60px;
       font-size: 40px;
    }
 
    .text__content__novisibility__1 {
       width: 350px;
-      height: 33px;
       font-size: 28px;
    }
 
    .text__content__novisibility__2 {
       width: 350px;
-      height: 47px;
       font-size: 15px;
    }
 
    /* Visibility */
    .text__content__visibility__0 {
       width: 350px;
-      height: 60px;
       font-size: 40px;
    }
 
    .text__content__visibility__1 {
       width: 330px;
-      height: 33px;
       font-size: 25px;
    }
 
    .text__content__visibility__2 {
       width: 300px;
-      height: 47px;
       font-size: 15px;
    }
 
    .visibility__links {
       display: grid;
+      row-gap: 10px;
       justify-content: center;
       grid-template-columns: repeat(3, 100px);
-      row-gap: 10px;
    }
 
    .block__container {
-      grid-template-columns: repeat(1, 400px);
       margin-top: 10px;
-      column-gap: 12px;
-      row-gap: 30px;
+      grid-template-columns: repeat(1, 400px);
    }
 
    .block__main {
