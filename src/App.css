@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400;500&family=Inter&display=swap');
 
-body {   
+body {
    max-height: 100%;
    background: linear-gradient(253deg, #E19898 -35.78%, #A2678A 2.02%, #4D3C77 41.73%, #3F1D38 90.84%), linear-gradient(253deg, #E19898 -35.78%, #A2678A 2.02%, #4D3C77 41.73%, #3F1D38 90.84%);
    background-repeat: no-repeat;
@@ -11,23 +11,6 @@ body {
 .container {
    margin-top: 100px;
 }
-
-/* Scroll */
-/* body::-webkit-scrollbar {
-   width: 10px;
-}
-
-body::-webkit-scrollbar-thumb {
-   background-color: #000000;
-   border-radius: 20px;
-   border: 2px solid transparent;
-   background-clip: content-box;
-}
-
-body::-webkit-scrollbar-track {
-   background-color: transparent;
-} */
-
 
 /* No visibility */
 .visibility {
@@ -198,14 +181,14 @@ body::-webkit-scrollbar-track {
 
 .line__border_one {
    max-width: 100%;
-   height: 3px;
+   height: 1px;
    border: none;
    flex-shrink: 0;
    border-radius: 8px;
    background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%,
          rgba(255, 255, 255, 0.83) 42.52%, #FFF 51.37%,
          rgba(255, 255, 255, 0.87) 60.75%, rgba(255, 255, 255, 0.00) 100%);
-   margin-top: 125px;
+   margin-top: 50px;
    margin-left: 114px;
    margin-right: 114px;
 }
@@ -214,15 +197,151 @@ body::-webkit-scrollbar-track {
 .block__container {
    display: grid;
    justify-content: center;
-   grid-template-columns: repeat(2, 600px);
-   margin-top: 125px;
+   margin-top: 50px;
    column-gap: 12px;
-   row-gap: 30px;
+   row-gap: 1px;
 }
 
-.block__main {
-   width: 600px;
+.visibility__skills {
+   display: grid;
+   grid-template-columns: repeat(15, 58px);
+   grid-template-rows: repeat(4, 70px);
+   width: 877px;
    height: 350px;
    flex-shrink: 0;
    background: linear-gradient(269deg, rgba(27, 26, 26, 0.92) 6.12%, rgba(78, 60, 124, 0.11) 101.73%);
+}
+
+
+/* Date */
+.line__block {
+   grid-column: 1;
+}
+
+.date__block {
+   display: flex;
+   margin-top: 0px;
+   position: relative;
+}
+
+.block__date {
+   color: #cfcfcf;
+   font-family: 'Inter', sans-serif;
+   font-size: 11px;
+   margin-top: 1px;
+   width: 30px;
+   height: 11px;
+   position: absolute;
+}
+
+.block__dash {
+   color: #ffffff;
+   position: absolute;
+   left: 34px;
+   top: -3px;
+}
+
+/* Line */
+.line__border {
+   display: flex;
+   justify-content: center;
+   margin-left: 9px;
+   margin-top: 2px;
+   position: relative;
+   left: 40px;
+   top: 0;
+}
+
+.block__ball {
+   width: 10px;
+   height: 10px;
+   background-color: #ffffff;
+   border-radius: 10px;
+   position: absolute;
+   left: -4px;
+}
+
+.block__border {
+   border-left: 2px solid #ffffff;
+   height: 335px;
+   margin-top: 13px;
+   position: absolute;
+   left: 0px;
+
+}
+
+
+/* Text Content */
+.text__content {
+   margin-left: 8px;
+}
+
+.block__text {
+   width: 810px;
+   height: 40px;
+   flex-shrink: 0;
+   color: #FFF;
+   font-family: 'IBM Plex Mono';
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.link__content {
+   margin-top: -15px;
+   display: grid;
+   grid-template-columns: repeat(2, 110px);
+   grid-template-rows: repeat(1, 38px);
+   align-items: center;
+}
+
+.link__title {
+   width: 102px;
+   height: 17px;
+   color: #FFF;
+   font-family: 'IBM Plex Mono';
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.block__link {
+   width: 337px;
+   height: 17px;
+   flex-shrink: 0;
+   color: #FFF;
+   font-family: 'IBM Plex Mono';
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+/* Images */
+.block__image {
+   grid-row: 2;
+   grid-column: 2;
+   margin-left: 8px;
+   display: grid;
+   grid-template-columns: repeat(7, 120px);
+   grid-template-rows: repeat(2, 125px);
+   column-gap: 5px;
+   row-gap: 10px;
+}
+
+.block__main__1 {
+   grid-row: 1;
+   grid-column: 3;
+}
+
+.block__main__2 {
+   grid-row: 1;
+   grid-column: 5;
+}
+
+.block__main__3 {
+   grid-row: 2;
+   grid-column: 1;
 }

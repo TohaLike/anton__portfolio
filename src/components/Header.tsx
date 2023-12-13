@@ -6,7 +6,7 @@ import AntonLogo from "../images/Anton.png"
 const Header: React.FC = () => {
    const [loadedPhoto, setLoadedPhoto] = useState(false)
    const items = ['Anton Malyshev', 'Frontend-developer', 'My work it is developing web-apps and creating UI']
-   const itemsLinks = ['GitHub', 'Telegram', 'Twitter', 'Instagram']
+   const itemsLinks = ['GitHub', 'Telegram', 'Email', 'Instagram']
    const linkBoks = ['https://github.com/TohaLike', 'https://t.me/smokeonthetower', 
    '','https://instagram.com/death__devil.7?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr']
 

@@ -32,6 +32,8 @@ const NoVisibilityHeader: React.FC = () => {
                   </animated.div>
                ))}
             </div>
+
+            
          </div >
       </>
    )
