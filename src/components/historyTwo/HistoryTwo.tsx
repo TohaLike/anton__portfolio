@@ -7,7 +7,6 @@ import ImageThree from "./images/image3.png"
 import ImageFour from "./images/image4.png"
 import ImageFive from "./images/image5.png"
 import 'react-medium-image-zoom/dist/styles.css'
-import "./css/HistoryTwo.css"
 import "./css/Adaptive.css"
 
 const HistoryTwo: React.FC = () => {
