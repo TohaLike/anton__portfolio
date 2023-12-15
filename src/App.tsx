@@ -50,6 +50,11 @@ function App() {
                   <HistoryTwo />
             </div>
 
+            <div className="footer">
+                 
+            </div>
+
+
          </animated.div>
       </div>
    );
