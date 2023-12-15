@@ -65,6 +65,10 @@
       row-gap: 7px;
       column-gap: 230px;
    }
+
+   .border__line {
+      height: 368px;  
+   }
 }
 
 @media only screen and (max-width: 1080px) {
@@ -94,6 +98,10 @@
       grid-row: 5;
       row-gap: 7px;
       column-gap: 140px;
+   }
+
+   .border__line {
+      height: 384px;  
    }
 }
 
@@ -125,6 +133,10 @@
       row-gap: 7px;
       column-gap: 50px;
    }
+
+   .border__line {
+      height: 383px;  
+   }
 }
 
 @media only screen and (max-width: 1040px) {
@@ -154,6 +166,11 @@
       grid-row: 5;
       row-gap: 7px;
       column-gap: 40px;
+   }
+
+      
+   .border__line {
+      height: 383px;  
    }
 }
 
