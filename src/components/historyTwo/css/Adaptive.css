@@ -7,12 +7,12 @@
 }
 
 .border__line__two {
-   height: 388px;
+   height: 448px;
 }
 
 @media only screen and (max-width: 1200px) {
    .border__line__two {
-      height: 552px;
+      height: 612px;
    }
 }
 
@@ -20,13 +20,13 @@
 
 @media only screen and (max-width: 1080px) {
    .border__line__two {
-      height: 552px;
+      height: 612px;
    }
 }
 
 @media only screen and (max-width: 1060px) {
    .border__line__two {
-      height: 551px;
+      height: 612px;
    }
 }
 
@@ -36,7 +36,7 @@
    }
 
    .border__line__two {
-      height: 569px;
+      height: 630px;
    }
 }
 
@@ -46,19 +46,19 @@
    }
 
    .border__line__two {
-      height: 524px;
+      height: 583px;
    }
 }
 
 @media only screen and (max-width: 1000px) {
    .border__line__two {
-      height: 481px;
+      height: 541px;
    }
 }
 
 @media only screen and (max-width: 660px) {
    .border__line__two {
-      height: 884px;
+      height: 945px;
    }
 
    .image__container__two {
@@ -68,7 +68,7 @@
 
 @media only screen and (max-width: 600px) {
    .border__line__two {
-      height: 743px;
+      height: 783px;
    }
    
    .image__container__two {
@@ -78,7 +78,7 @@
 
 @media only screen and (max-width: 430px) {
    .border__line__two {
-      height: 696px;
+      height: 736px;
    }
 
    .image__container__two {
