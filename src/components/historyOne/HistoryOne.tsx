@@ -1,14 +1,11 @@
 import React from "react"
-import Zoom from "react-medium-image-zoom"
-import 'react-medium-image-zoom/dist/styles.css'
 import { animated, useTrail } from "react-spring"
-
+import Zoom from "react-medium-image-zoom"
 import ImageOne from "./images/image1.png"
 import ImageTwo from "./images/image2.png"
 import ImageThree from "./images/image3.png"
 import ImageFour from "./images/image4.png"
-
-
+import 'react-medium-image-zoom/dist/styles.css'
 import "../historyOne/HistoryOne.css"
 import "../historyOne/Adaptive.css"
 
