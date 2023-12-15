@@ -6,8 +6,8 @@ import ImageTwo from "./images/image2.png"
 import ImageThree from "./images/image3.png"
 import ImageFour from "./images/image4.png"
 import 'react-medium-image-zoom/dist/styles.css'
-import "../historyOne/HistoryOne.css"
-import "../historyOne/Adaptive.css"
+import "./css/HistoryOne.css"
+import "./css/Adaptive.css"
 
 const HistoryOne: React.FC = () => {
    const itemsImage = [`${ImageOne}`, `${ImageTwo}`, `${ImageThree}`, `${ImageFour}`]

@@ -7,8 +7,8 @@ import ImageThree from "./images/image3.png"
 import ImageFour from "./images/image4.png"
 import ImageFive from "./images/image5.png"
 import 'react-medium-image-zoom/dist/styles.css'
-// import "../historyTwo/HistoryTwo.css"
-// import "../historyTwo/Adaptive.css"
+import "./css/HistoryTwo.css"
+import "./css/Adaptive.css"
 
 const HistoryTwo: React.FC = () => {
    const itemsImage = [`${ImageOne}`, `${ImageTwo}`, `${ImageThree}`, `${ImageFour}`, `${ImageFive}`]
@@ -21,7 +21,7 @@ const HistoryTwo: React.FC = () => {
 
    return (
       <>
-         <div className="history__container">
+         <div className="history__container history__container__two">
             <div className="border__container">
                <div className="date__container">
                   <div className="date__year">2022 -</div>
@@ -29,18 +29,19 @@ const HistoryTwo: React.FC = () => {
 
                <div className="line__container">
                   <div className="border__dot"></div>
-                  <div className="border__line"></div>
+                  <div className="border__line border__line__two"></div>
                </div>
             </div>
 
             <div className="text__container">
-               <div className="main__text">This project was create for organizing and structuring data about employees,
-                  projects and tasks. It provides an effective method for management information and provides easier workflow. <div className="title__link">Source code:
-                     <a className="link__text" href="https://github.com/TohaLike/mongoDB-test"> https://github.com/TohaLike/mongoDB-test</a></div>
+               <div className="main__text">This project was create special for web-designers and developers. 
+               It provides faster and more comfortable way to encode colors in different formats: 
+               RGB, HSL and HEX. This allows you to accurately convey the desired shades in digital form. <div className="title__link">Give it a try yourself:
+                     <a className="link__text" href="https://tohalike.github.io/"> https://tohalike.github.io/</a></div>
                </div>
             </div>
 
-            <div className="image__container">
+            <div className="image__container image__container__two">
                {trailImage.map((style, index) => (
                   <animated.div style={style} key={index} className={`image__block__${index}`}>
                      <Zoom>
