@@ -10,6 +10,7 @@ import ImageFour from "./images/image4.png"
 
 
 import "../historyOne/HistoryOne.css"
+import "../historyOne/Adaptive.css"
 
 const HistoryOne: React.FC = () => {
    const itemsImage = [`${ImageOne}`, `${ImageTwo}`, `${ImageThree}`, `${ImageFour}`]
@@ -36,7 +37,7 @@ const HistoryOne: React.FC = () => {
 
             <div className="text__container">
                <div className="main__text">This project was create for organizing and structuring data about employees,
-                  projects and tasks. It provides an effective method for management information and provides easier workflow. <div>Source code:
+                  projects and tasks. It provides an effective method for management information and provides easier workflow. <div className="title__link">Source code:
                   <a className="link__text" href="https://github.com/TohaLike/mongoDB-test"> https://github.com/TohaLike/mongoDB-test</a></div>
                </div>
             </div>
@@ -46,7 +47,7 @@ const HistoryOne: React.FC = () => {
                   <animated.div style={style} key={index} className={`image__block__${index}`}>
                      <Zoom>
                         <img
-                           className={`items__image__${index}`}
+                           className={`items__image items__image__${index}`}
                            src={itemsImage[index]}
                            alt={itemsImage[index]}
                            width={300}

@@ -4,13 +4,45 @@
 
 @media only screen and (max-width: 1230px) {}
 
-@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1200px) {
+   .line__border__one {
+      margin-top: 45px;
+   }
+}
 
-@media only screen and (max-width: 1160px) {}
 
-@media only screen and (max-width: 1110px) {}
+@media only screen and (max-width: 1100px) {
+   .line__border__one {
+      margin-top: 35px;
+   }
+}
 
-@media only screen and (max-width: 1090px) {}
+
+@media only screen and (max-width: 1080px) {
+   .line__border__one {
+      margin-top: 30px;
+   }
+}
+
+@media only screen and (max-width: 1060px) {
+   .line__border__one {
+      margin-top: 25px;
+   }
+}
+
+@media only screen and (max-width: 1040px) {
+   .line__border__one {
+      margin-top: 20px;
+   }
+}
+
+@media only screen and (max-width: 1020px) {
+   .line__border__one {
+      opacity: 0;
+      margin-top: 10px;
+   }
+}
+
 
 @media only screen and (max-width: 930px) {}
 
