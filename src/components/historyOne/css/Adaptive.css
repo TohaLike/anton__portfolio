@@ -383,3 +383,19 @@
       height: 611px;
    }
 }
+
+@media only screen and (max-width: 390px) {
+
+   /* History Container */
+   .history__container {
+      width: 88%;
+      grid-template-columns: repeat(4, 87px);
+      grid-template-rows: repeat(8, 20px);
+      margin-left: 10px;
+   }
+
+
+   .image__container {
+      grid-row: 9;
+   }
+}
