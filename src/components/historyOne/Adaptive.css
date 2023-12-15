@@ -35,6 +35,10 @@
       grid-row: 2;
       grid-column: 2;
    }
+
+   .border__line {
+      height: 368px;  
+   }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -64,10 +68,6 @@
       grid-row: 4;
       row-gap: 7px;
       column-gap: 230px;
-   }
-
-   .border__line {
-      height: 368px;  
    }
 }
 
@@ -167,11 +167,6 @@
       row-gap: 7px;
       column-gap: 40px;
    }
-
-      
-   .border__line {
-      height: 383px;  
-   }
 }
 
 
@@ -243,7 +238,7 @@
    }
 
    .border__line {
-      height: 312px;  
+      height: 311px;  
    }
 }
 
@@ -291,7 +286,7 @@
    }
 
    .border__line {
-      height: 719px;  
+      height: 718px;  
    }
 }
 
@@ -330,7 +325,7 @@
    }
 
    .border__line {
-      height: 634px;  
+      height: 633px;  
    }
 }
 
@@ -380,6 +375,6 @@
    }
    
    .border__line {
-      height: 572px;  
+      height: 571px;  
    }
 }
