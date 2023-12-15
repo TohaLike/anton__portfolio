@@ -2,6 +2,7 @@ import { useSpring, animated, useTrail } from "react-spring"
 import NoVisibility from "./components/NoVisibilityHeader"
 import Header from "./components/Header"
 import HistoryOne from "./components/historyOne/HistoryOne"
+import HistoryTwo from "./components/historyTwo/HistoryTwo"
 import './App.css'
 import 'normalize.css'
 import './Adaptive.css'
@@ -46,6 +47,7 @@ function App() {
 
             <div className="history__mian__container">
                   <HistoryOne />
+                  <HistoryTwo />
             </div>
 
          </animated.div>
