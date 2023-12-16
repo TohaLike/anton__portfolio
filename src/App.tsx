@@ -9,6 +9,8 @@ import './Adaptive.css'
 
 
 function App() {
+   const itemsSkills = [<HistoryOne />, <HistoryTwo />]
+
    const fadeInImage = useSpring({
       from: { opacity: 0, height: 'auto' },
       to: { opacity: 1, height: 0 },
@@ -27,9 +29,9 @@ function App() {
       config: { duration: 3000 }
    })
 
-   const fadeInArticle = useSpring({
+   const fadeInArticle = useTrail(itemsSkills.length, {
       opacity: 1,
-      from: { opacity: 0, height: 0 },
+      from: { opacity: 0, height: 'auto' },
       config: { duration: 3000 }
    })
 
@@ -46,16 +48,17 @@ function App() {
             </animated.div>
 
             <div className="history__mian__container">
-                  <HistoryOne />
-                  <HistoryTwo />
+               {fadeInArticle.map((style, index) => (
+                  <animated.div style={style} key={index}>
+                     {itemsSkills[index]}
+                  </animated.div>
+               ))}
             </div>
-
-            <div className="footer">
-                 
-            </div>
-
 
          </animated.div>
+         <div className="footer">
+
+         </div>
       </div>
    );
 }
