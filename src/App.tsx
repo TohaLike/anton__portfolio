@@ -32,7 +32,7 @@ function App() {
    const fadeInArticle = useTrail(itemsSkills.length, {
       opacity: 1,
       from: { opacity: 0, height: 'auto' },
-      config: { duration: 3000 }
+      config: { duration: 700 }
    })
 
    return (
