@@ -86,11 +86,11 @@
    }
 
    .history__container {
-      grid-template-rows: repeat(9, 20px);
+      grid-template-rows: repeat(8, 20px);
    }
 
    .image__container {
-      grid-row: 10;
+      grid-row: 9;
    }
 }
 
