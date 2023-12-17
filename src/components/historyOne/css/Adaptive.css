@@ -292,15 +292,12 @@
 }
 
 @media only screen and (max-width: 600px) {
-
-   /* History Container */
    .history__container {
       width: 100%;
       grid-template-columns: repeat(4, 87px);
       grid-template-rows: repeat(9, 20px);
    }
 
-   /* Text */
    .text__container {
       grid-column: 2/5;
    }
@@ -363,7 +360,7 @@
    }
 }
 
-@media only screen and (max-width: 390px) {
+/* @media only screen and (max-width: 390px) {
    .history__container {
       grid-template-rows: repeat(8, 20px);
    }
@@ -371,4 +368,4 @@
    .image__container {
       grid-row: 9;
    }
-}
+} */
