@@ -31,9 +31,9 @@
 }
 
 @media only screen and (max-width: 1040px) {
-   .image__container__two {
+   /* .image__container__two {
       margin-top: 34px;
-   }
+   } */
 
    .border__line__two {
       height: 630px;
