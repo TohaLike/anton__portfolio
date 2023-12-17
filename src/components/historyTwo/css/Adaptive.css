@@ -32,16 +32,12 @@
 }
 
 @media only screen and (max-width: 1040px) {
-   .image__container__two {
+   /* .image__container__two {
       margin-top: 34px;
-   }
+   } */
 
    .border__line__two {
       height: 630px;
-   }
-
-   .image__container__two {
-      grid-row: 7;
    }
 }
 
@@ -51,7 +47,7 @@
    }
 
    .border__line__two {
-      height: 576px;
+      height: 583px;
    }
 
    .image__container__two {
@@ -63,9 +59,9 @@
    .border__line__two {
       height: 534px;
    }
-
+   
    .image__container__two {
-      grid-row: 8;
+      grid-row: 7;
    }
 }
 
