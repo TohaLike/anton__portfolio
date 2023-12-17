@@ -1,5 +1,6 @@
 .history__container__two {
    margin-top: 5px;
+   grid-template-rows: repeat(7, 20px);
 }
 
 .image__container__two {
@@ -31,9 +32,9 @@
 }
 
 @media only screen and (max-width: 1040px) {
-   /* .image__container__two {
+   .image__container__two {
       margin-top: 34px;
-   } */
+   }
 
    .border__line__two {
       height: 630px;
@@ -60,21 +61,12 @@
    .border__line__two {
       height: 945px;
    }
-
-   /* 
-   .image__container__two {
-      margin-top: 26px;
-   } */
 }
 
 @media only screen and (max-width: 600px) {
    .border__line__two {
       height: 783px;
    }
-
-   /* .image__container__two {
-      margin-top: 0px;
-   } */
 }
 
 @media only screen and (max-width: 430px) {
