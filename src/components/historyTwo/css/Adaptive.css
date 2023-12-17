@@ -84,6 +84,14 @@
    .image__container__two {
       margin-top: 25px;
    }
+
+   .history__container {
+      grid-template-rows: repeat(9, 20px);
+   }
+
+   .image__container {
+      grid-row: 10;
+   }
 }
 
 @media only screen and (max-width: 430px) {}

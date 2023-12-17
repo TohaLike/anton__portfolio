@@ -54,8 +54,9 @@ function App() {
                   </animated.div>
                ))}
             </div>
-
          </animated.div>
+
+
          <div className="footer">
 
          </div>
