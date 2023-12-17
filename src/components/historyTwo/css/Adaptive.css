@@ -8,46 +8,36 @@
 }
 
 .border__line__two {
-   height: 448px;
+   height: 444px;
 }
 
 @media only screen and (max-width: 1200px) {
    .border__line__two {
-      height: 612px;
+      height: 609px;
    }
 }
 
-@media only screen and (max-width: 1100px) {}
-
 @media only screen and (max-width: 1080px) {
    .border__line__two {
-      height: 612px;
+      height: 625px;
    }
 }
 
 @media only screen and (max-width: 1060px) {
    .border__line__two {
-      height: 612px;
+      height: 625px;
    }
 }
 
 @media only screen and (max-width: 1040px) {
-   /* .image__container__two {
-      margin-top: 34px;
-   } */
-
    .border__line__two {
-      height: 630px;
+      height: 625px;
    }
 }
 
 @media only screen and (max-width: 1020px) {
    .border__line__two {
-      height: 505px;
-   }
-
-   .border__line__two {
-      height: 583px;
+      height: 578px;
    }
 
    .image__container__two {
@@ -57,7 +47,7 @@
 
 @media only screen and (max-width: 1000px) {
    .border__line__two {
-      height: 534px;
+      height: 533px;
    }
    
    .image__container__two {
@@ -68,7 +58,7 @@
 
 @media only screen and (max-width: 660px) {
    .border__line__two {
-      height: 926px;
+      height: 935px;
    }
 
    .image__container__two {
@@ -79,7 +69,7 @@
 
 @media only screen and (max-width: 600px) {
    .border__line__two {
-      height: 770px;
+      height: 786px;
    }
 
    .image__container__two {
@@ -96,7 +86,7 @@
    }
 
    .border__line__two {
-      height: 737px;
+      height: 754px;
    }
 
    .image__container__two {
