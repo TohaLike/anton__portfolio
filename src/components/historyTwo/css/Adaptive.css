@@ -1,6 +1,6 @@
 .history__container__two {
    margin-top: 5px;
-   grid-template-rows: repeat(7, 20px);
+   grid-template-rows: repeat(8, 20px);
 }
 
 .image__container__two {
@@ -32,12 +32,12 @@
 }
 
 @media only screen and (max-width: 1040px) {
-   .image__container__two {
-      margin-top: 34px;
-   }
-
    .border__line__two {
       height: 630px;
+   }
+
+   .image__container__two {
+      grid-row: 8;
    }
 }
 
@@ -47,25 +47,33 @@
    }
 
    .border__line__two {
-      height: 583px;
+      height: 576px;
+   }
+
+   .image__container__two {
+      grid-row: 8;
    }
 }
 
 @media only screen and (max-width: 1000px) {
    .border__line__two {
-      height: 541px;
+      height: 534px;
+   }
+
+   .image__container__two {
+      grid-row: 9;
    }
 }
 
 @media only screen and (max-width: 660px) {
    .border__line__two {
-      height: 945px;
+      height: 926px;
    }
 }
 
 @media only screen and (max-width: 600px) {
    .border__line__two {
-      height: 783px;
+      height: 770px;
    }
 }
 
