@@ -1,6 +1,6 @@
 .history__container__two {
    margin-top: 5px;
-   grid-template-rows: repeat(8, 20px);
+   grid-template-rows: repeat(7, 20px);
 }
 
 .image__container__two {
@@ -32,12 +32,16 @@
 }
 
 @media only screen and (max-width: 1040px) {
+   .image__container__two {
+      margin-top: 34px;
+   }
+
    .border__line__two {
       height: 630px;
    }
 
    .image__container__two {
-      grid-row: 8;
+      grid-row: 7;
    }
 }
 
@@ -51,7 +55,7 @@
    }
 
    .image__container__two {
-      grid-row: 8;
+      grid-row: 7;
    }
 }
 
@@ -61,7 +65,7 @@
    }
 
    .image__container__two {
-      grid-row: 9;
+      grid-row: 8;
    }
 }
 
