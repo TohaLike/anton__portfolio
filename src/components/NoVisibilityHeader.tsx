@@ -3,6 +3,7 @@ import { useSpring, animated, useTrail } from '@react-spring/web'
 
 const NoVisibilityHeader: React.FC = () => {
    const items = ['', '', '', '']
+   const itemsSkills = ['', '']
 
    const fadeOut = useSpring({
       opacity: 0,
@@ -11,6 +12,12 @@ const NoVisibilityHeader: React.FC = () => {
    })
 
    const trailFadeOut = useTrail(items.length, {
+      opacity: 0,
+      from: { opacity: 1 },
+      config: { duration: 700 }
+   })
+
+   const trailFadeSkills = useTrail(itemsSkills.length, {
       opacity: 0,
       from: { opacity: 1 },
       config: { duration: 700 }
@@ -32,6 +39,15 @@ const NoVisibilityHeader: React.FC = () => {
                   </animated.div>
                ))}
             </div>
+
+            <div className="no__visibility__skills">
+               {trailFadeSkills.map((style, index) => (
+                  <animated.div key={index} style={style} className={`novisibility__skills__${index}`}>
+                     {itemsSkills[index]}
+                  </animated.div>
+               ))}
+            </div>
+
          </div >
       </>
    )

@@ -40,6 +40,7 @@ function App() {
          <animated.div style={fadeInImage}>
             <NoVisibility />
          </animated.div>
+
          <animated.div style={fadeInContent}>
             <Header />
 
@@ -54,12 +55,11 @@ function App() {
                   </animated.div>
                ))}
             </div>
+
+            <div className="technical__skills">
+
+            </div>
          </animated.div>
-
-
-         <div className="footer">
-
-         </div>
       </div>
    );
 }

@@ -45,7 +45,7 @@ const HistoryOne: React.FC = () => {
                   <div className="text__title">Employees List</div>
                   <div className="main__text">This project was create for organizing and structuring data about employees,
                      projects and tasks. It provides an effective method for management information and provides easier workflow. <div className="title__link">Source code:
-                        <a className="link__text" href="https://github.com/TohaLike/mongoDB-test"> https://github.com/TohaLike/mongoDB-test</a></div>
+                     <a className="link__text" href="https://github.com/TohaLike/mongoDB-test">https://github.com/TohaLike/mongoDB-test</a></div>
                   </div>
                </div>
             </animated.div>
