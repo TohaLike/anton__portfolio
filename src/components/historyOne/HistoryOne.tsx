@@ -21,7 +21,7 @@ const HistoryOne: React.FC = () => {
    const trailImage = useTrail(itemsImage.length, ({
       opacity: 1,
       from: { opacity: 0 },
-      config: { duration: 700 }
+      config: { duration: 300 }
    }))
 
    return (
