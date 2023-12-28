@@ -64,6 +64,7 @@
 }
 
 .text__title {
+   position: sticky;
    color: #ffffff;
    font-family: 'IBM Plex Mono';
    font-size: 32px;
@@ -74,6 +75,7 @@
 }
 
 .link__text {
+   position: sticky;
    color: #ffffff;
    font-family: 'IBM Plex Mono';
    font-size: 14px;
@@ -84,6 +86,7 @@
 }
 
 .main__text {
+   position: sticky;
    width: 100%;
    flex-shrink: 0;
    color: #FFF;
