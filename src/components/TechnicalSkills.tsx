@@ -1,12 +1,18 @@
+import React from "react"
+
 
 
 const TechnicalSkills: React.FC = () => {
+   
+
+
+
    return (
       <>
          <div className="technical__skills__container">
             <div className="technical__blocks">
                <div className="react__block">
-                  
+                  <img src="" alt="" />
                </div>
 
                <div className="mongo__block"></div>

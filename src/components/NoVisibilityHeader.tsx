@@ -20,7 +20,7 @@ const NoVisibilityHeader: React.FC = () => {
    const trailFadeSkills = useTrail(itemsSkills.length, {
       opacity: 0,
       from: { opacity: 1 },
-      config: { duration: 70000 }
+      config: { duration: 700 }
    })
 
    return (

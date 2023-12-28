@@ -11,7 +11,7 @@ import './Adaptive.css'
 function App() {
    const itemsSkills = [<HistoryOne />, <HistoryTwo />]
 
-   const fadeInImage = useSpring({
+   const fadeInNoVisibility = useSpring({
       from: { opacity: 0, height: 'auto' },
       to: { opacity: 1, height: 0 },
       config: { duration: 700 }
@@ -37,7 +37,7 @@ function App() {
 
    return (
       <div className="container">
-         <animated.div style={fadeInImage}>
+         <animated.div style={fadeInNoVisibility}>
             <NoVisibility />
          </animated.div>
 
@@ -57,7 +57,9 @@ function App() {
             </div>
 
             <div className="technical__skills">
-
+                  <animated.div>
+                     
+                  </animated.div>
             </div>
          </animated.div>
       </div>
