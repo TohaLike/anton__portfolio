@@ -43,10 +43,10 @@ const HistoryTwo: React.FC = () => {
             <animated.div style={fadeIn} className={"text__container"}>
                <div className="text__container">
                   <div className="text__title">Color Storage</div>
-                  <div className="main__text">This project was create special for web-designers and developers.
+                  <div className="main__text main__text__2">This project was create special for web-designers and developers.
                      It provides faster and more comfortable way to encode colors in different formats:
-                     RGB, HSL and HEX. This allows you to accurately convey the desired shades in digital form. <div className="title__link">Give it a try yourself:
-                        <a className="link__text" href="https://tohalike.github.io/">https://tohalike.github.io/</a></div>
+                     RGB, HSL and HEX. This allows you to accurately convey the desired shades in digital form. <div className="title__link title__link__2">Give it a try yourself:
+                        <a className="link__text link__text__2" href="https://tohalike.github.io/">https://tohalike.github.io/</a></div>
                   </div>
                </div>
             </animated.div>

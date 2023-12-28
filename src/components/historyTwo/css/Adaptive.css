@@ -15,6 +15,10 @@
    .border__line__two {
       height: 609px;
    }
+
+   .main__text__2 {
+      width: 98%;
+   }
 }
 
 @media only screen and (max-width: 1080px) {
@@ -27,11 +31,19 @@
    .border__line__two {
       height: 625px;
    }
+
+   .main__text__2 {
+      width: 97%;
+   }
 }
 
 @media only screen and (max-width: 1040px) {
    .border__line__two {
       height: 625px;
+   }
+
+   .main__text__2 {
+      width: 94%;
    }
 }
 
@@ -54,11 +66,24 @@
       margin-top: 33px;
       grid-row: 8;
    }
+   
 }
 
 @media only screen and (max-width: 660px) {
    .border__line__two {
       height: 935px;
+   }
+
+   .title__link__2 {
+      font-size: 11px;
+   }
+
+   .link__text__2 {
+      font-size: 11px;
+   }
+
+   .main__text {
+      font-size: 11px;
    }
 
    .image__container__two {
