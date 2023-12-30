@@ -2,13 +2,11 @@ import React, { useState } from "react"
 import { useSpring, useTrail, animated } from '@react-spring/web'
 import AkkError from "../pages/AkkError"
 import AntonLogo from "../images/Anton.png"
+import Links from "./Links"
 
 const Header: React.FC = () => {
    const [loadedPhoto, setLoadedPhoto] = useState(false)
    const items = ['Anton Malyshev', 'Frontend-developer', 'My work it is developing web-apps and creating UI']
-   const itemsLinks = ['GitHub', 'Telegram', 'Email', 'Instagram']
-   const linkBoks = ['https://github.com/TohaLike', 'https://t.me/smokeonthetower', 
-   '','https://instagram.com/death__devil.7?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr']
 
    const fadeInImage = useSpring({
       opacity: loadedPhoto ? 1 : 0,
@@ -16,12 +14,6 @@ const Header: React.FC = () => {
    })
 
    const trailHeader = useTrail(items.length, {
-      opacity: 1,
-      from: { opacity: 0 },
-      config: { duration: 700 }
-   })
-
-   const trailHeaderLinks = useTrail(itemsLinks.length, {
       opacity: 1,
       from: { opacity: 0 },
       config: { duration: 700 }
@@ -45,12 +37,8 @@ const Header: React.FC = () => {
                ))}
             </div>
 
-            <div className="visibility__links">
-               {trailHeaderLinks.map((style, index) => (
-                  <animated.a href={linkBoks[index]} key={index} style={style} className={`link__block links__content__visibility__${index}`}>
-                     {itemsLinks[index]}
-                  </animated.a>
-               ))}
+            <div className="links__container">
+               <Links />
             </div>
          </div>
       </>
